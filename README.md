@@ -4,7 +4,7 @@
 # Step 2: Feature
 # Step 3: Product-component
 # Step 4: Filter-component
-# Step 5: 
+# Step 5: Cart-component
 
 
 
