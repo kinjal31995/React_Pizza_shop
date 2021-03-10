@@ -11,6 +11,7 @@ class App extends React.Component {
       sort: ""
     };
   }
+
   render() {
     return (
       <div className="grid-container">
