@@ -74,8 +74,10 @@ footer {
 .sidebar {
   flex: 1 20rem;
 }
+/* ------------------------------------------------------------------------- */
+/* products -----------------------------------------------------------------*/
+/* ------------------------------------------------------------------------- */
 
-/* products */
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +107,9 @@ footer {
   max-height: 37rem;
 }
 
+.product p {font-size: 2rem;
+}
+
 .product-price {
   display: flex;
   justify-content: space-between;
@@ -125,7 +130,7 @@ footer {
   padding: 1rem;
   border: 0.1rem solid #ff7b00;
   /* border: 0.1rem solid #c0c0c0; */
-  
+
   border-radius: 2rem;
   background: #fcfafa;
   /* background: #fff; */
@@ -145,3 +150,17 @@ footer {
   /* background-color: #ffc000; */
   color: #fff;
 }
+
+/* ------------------------------------------------------------------------- */
+/* FILTER------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem solid #c0c0c0;
+}
+
+.filter div{flex: 1;}

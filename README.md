@@ -3,7 +3,7 @@
 # Step 1: Create React App
 # Step 2: Feature
 # Step 3: Product-component
-# Step 4: 
+# Step 4: Filter-component
 # Step 5: 
 
 
