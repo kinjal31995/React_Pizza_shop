@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "_id": "pizza1",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 6.5
+        },
+        {
+            "_id": "pizza2",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 5.8
+        },
+        {
+            "_id": "pizza3",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 10.5
+        },
+        {
+            "_id": "pizza4",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 16.5
+        },
+        {
+            "_id": "pizza5",
+            "image": "/images/piz1.jpg",
+            "title": "Margeerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 12.5
+        },
+        {
+            "_id": "pizza6",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 6.5
+        },
+        {
+            "_id": "pizza7",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 7.5
+        },
+        {
+            "_id": "pizza8",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 6
+        },
+        {
+            "_id": "pizza9",
+            "image": "/images/piz1.jpg",
+            "title": "Margerita",
+            "description": "pizza with cheeze",
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "price": 5
+        }
+    ]
+}

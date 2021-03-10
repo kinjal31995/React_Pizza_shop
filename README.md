@@ -1,8 +1,8 @@
 # PIZZA-SHOP
 
 # Step 1: Create React App
-# Step 2: Feature-1
-# Step 3: 
+# Step 2: Feature
+# Step 3: Product-component
 # Step 4: 
 # Step 5: 
 
