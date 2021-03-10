@@ -107,7 +107,8 @@ footer {
   max-height: 37rem;
 }
 
-.product p {font-size: 2rem;
+.product p {
+  font-size: 2rem;
 }
 
 .product-price {
@@ -163,4 +164,63 @@ footer {
   border-bottom: 0.1rem solid #c0c0c0;
 }
 
-.filter div{flex: 1;}
+.filter div {
+  flex: 1;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Index.css - Cart-component ---------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+.cart-header {
+  border-bottom: 0.1rem solid #c0c0c0;
+}
+
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 6rem;
+}
+
+.cart-items li {
+  display: flex;
+}
+
+.cart-items li div {
+  padding: 0.5rem;
+}
+
+.cart-items li div:last-child {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.total > div {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #502803;
+}
+
+.total > div,
+.total > button {
+  flex: 1;
+}
