@@ -5,7 +5,7 @@
 # Step 3: Product-component
 # Step 4: Filter-component
 # Step 5: Cart-component
-# Step 5: Checkout-forms
+# Step 6: Checkout-forms
 
 
 
