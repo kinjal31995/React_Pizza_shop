@@ -10,6 +10,7 @@
 # Step 8: Product-backend
 # Step 9: Add Redux-Products
 # Step 10: Add Redux-filter
+# Step 11: Add Redux-Cart
 
 
 
