@@ -8,6 +8,7 @@
 # Step 6: Checkout-forms
 # Step 7: Add Animation and Modal
 # Step 8: Product-backend
+# Step 9: Add Redux-Products
 
 
 
