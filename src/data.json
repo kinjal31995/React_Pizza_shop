@@ -17,7 +17,7 @@
             "_id": "pizza2",
             "image": "/images/piz1.jpg",
             "title": "Italiani",
-            "description": "pizza with cheeze",
+            "description": "Our Original Thin Crust topped with seasoned taco meat, Cheddar cheese, crispy lettuce, and fresh diced tomatoes.",
             "availableSizes": [
                 "Small",
                 "Medium"
@@ -28,7 +28,7 @@
             "_id": "pizza3",
             "image": "/images/piz1.jpg",
             "title": "Pepperoni",
-            "description": "pizza with cheeze",
+            "description": "An ocean of America’s Favorite topping … pepperoni.",
             "availableSizes": [
                 "Small",
                 "Medium"
@@ -39,7 +39,7 @@
             "_id": "pizza4",
             "image": "/images/piz1.jpg",
             "title": "Funghi",
-            "description": "pizza with cheeze",
+            "description": "A special selection of garden-fresh toppings including savory A special selection of garden-fresh toppings including savory ",
             "availableSizes": [
                 "Large",
                 "Jumbo"
@@ -50,7 +50,7 @@
             "_id": "pizza5",
             "image": "/images/piz1.jpg",
             "title": "Piccante",
-            "description": "pizza with cheeze",
+            "description": "An ocean of America’s Favorite topping … ",
             "availableSizes": [
                 "Medium",
                 "Large"
@@ -61,7 +61,7 @@
             "_id": "pizza6",
             "image": "/images/piz1.jpg",
             "title": "Mexicana",
-            "description": "pizza with cheeze",
+            "description": "Our Original Thin Crust topped with seasoned taco meat, Cheddar cheese, crispy lettuce, and fresh diced tomatoes.",
             "availableSizes": [
                 "Medium",
                 "Large"
@@ -72,7 +72,7 @@
             "_id": "pizza7",
             "image": "/images/piz1.jpg",
             "title": "Vegetariana",
-            "description": "pizza with cheeze",
+            "description": "A special selection of garden-fresh toppings including savory onions, green olives, black olives, fresh green bell peppers, diced tomatoes, and mushrooms, topped with Cheddar and Mozzarella cheeses.",
             "availableSizes": [
                 "Small",
                 "Large"
@@ -83,7 +83,7 @@
             "_id": "pizza8",
             "image": "/images/piz1.jpg",
             "title": "Paprika & Zwibeln",
-            "description": "pizza with cheeze",
+            "description": "A special selection of garden-fresh toppings including savory onions, green olives, black olives, fresh green bell peppers, topped with Cheddar and Mozzarella cheeses.",
             "availableSizes": [
                 "Large"
             ],
@@ -93,7 +93,7 @@
             "_id": "pizza9",
             "image": "/images/piz1.jpg",
             "title": "Salmone & Spinat",
-            "description": "pizza with cheeze",
+            "description": "A mountain of pepperoni, Italian sausage, lean bacon, smoked ham, beef and loads of Cheddar and Mozzarella cheese on your favorite crust.",
             "availableSizes": [
                 "Small",
                 "Medium",

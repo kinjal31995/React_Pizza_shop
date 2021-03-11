@@ -7,6 +7,7 @@
 # Step 5: Cart-component
 # Step 6: Checkout-forms
 # Step 7: Add Animation and Modal
+# Step 8: Product-backend
 
 
 
