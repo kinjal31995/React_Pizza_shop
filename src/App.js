@@ -1,6 +1,6 @@
 // feature  1
 import React from "react";
-import data from "./data.json";
+// import data from "./data.json";
 import Filter from "./components/Filter";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
@@ -11,12 +11,12 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      products: data.products,
+      // products: data.products,
       cartItems: localStorage.getItem("cartItems")
         ? JSON.parse(localStorage.getItem("cartItems"))
-        : [],
-      size: "",
-      sort: ""
+        : []
+      // size: "",
+      // sort: ""
     };
   }
   createOrder = order => {
@@ -48,35 +48,41 @@ class App extends React.Component {
     this.setState({ cartItems });
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   };
-
-  sortProducts = event => {
-    // implement
-    const sort = event.target.value;
-    console.log(event.target.value);
-    this.setState(state => ({
-      sort: sort,
-      products: this.state.products.slice().sort(
-        (a, b) =>
-          sort === "lowest"
-            ? a.price > b.price
-              ? 1
-              : -1
-            : sort === "highest"
-            ? a.price < b.price
-              ? 1
-              : -1
-            : a._id < b._id
-            ? 1
-            : -1
-
-        //   (sort==="lowest"? ((a.price < b.price)? 1:-1):
-        //   sort==="highest"? ((a.price > b.price)? 1:-1):
-        //   ((a._id > b._id)? 1:-1): )
+  /*
+//  -------------------------------------------------------------------------
+ //productAction.js ma lakhyu 6 ---------------------------------------------
+//  -------------------------------------------------------------------------
+sortProducts = event => {
+  // implement
+  const sort = event.target.value;
+  console.log(event.target.value);
+  this.setState(state => ({
+    sort: sort,
+    products: this.state.products.slice().sort(
+      (a, b) =>
+      sort === "lowest"
+      ? a.price > b.price
+      ? 1
+      : -1
+      : sort === "highest"
+      ? a.price < b.price
+      ? 1
+      : -1
+      : a._id < b._id
+      ? 1
+      : -1
+      
+      //   (sort==="lowest"? ((a.price < b.price)? 1:-1):
+      //   sort==="highest"? ((a.price > b.price)? 1:-1):
+      //   ((a._id > b._id)? 1:-1): )
       )
       // products: state.products
     }));
   };
-
+  
+  //  -------------------------------------------------------------------------
+  //productAction.js ma lakhyu 6 ----------------------------------------------
+  //  -------------------------------------------------------------------------
   filterProducts = event => {
     // implement
     console.log(event.target.value);
@@ -87,10 +93,10 @@ class App extends React.Component {
         size: event.target.value,
         products: data.products.filter(
           product => product.availableSizes.indexOf(event.target.value) >= 0
-        )
-      });
-    }
-  };
+          )
+        });
+      }
+    };*/
 
   render() {
     return (
@@ -102,16 +108,21 @@ class App extends React.Component {
           <main>
             <div className="content">
               <div className="main">
-                <Filter
+                <Filter></Filter>
+                {/* /*
+                //  ----------------------------------------------------------------
+                // redux - Sort mathi mali jase-------------------------------------
+                //  ----------------------------------------------------------------
+                
                   count={this.state.products.length}
                   size={this.state.size}
                   sort={this.state.sort}
                   filterProducts={this.filterProducts}
                   sortProducts={this.sortProducts}
-                ></Filter>
+                  * */}
                 <Products
-                  products={this.state.products}
                   addToCart={this.addToCart}
+                  // products={this.state.products}//redux store mathi aavse
                 ></Products>
               </div>
               <div className="sidebar">
