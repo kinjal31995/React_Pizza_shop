@@ -11,6 +11,7 @@
 # Step 9: Add Redux-Products
 # Step 10: Add Redux-filter
 # Step 11: Add Redux-Cart
+# Step 12: Create Order
 
 
 
