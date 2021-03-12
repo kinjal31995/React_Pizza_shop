@@ -12,7 +12,7 @@ class App extends React.Component {
       <Provider store={store}>
         <div className="grid-container">
           <header>
-            <a href="/">React Shopping Cart</a>
+            <a href="/">Pizzeria Express</a>
           </header>
           <main>
             <div className="content">
